@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: twitter-producer-app
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8040/
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: refresh

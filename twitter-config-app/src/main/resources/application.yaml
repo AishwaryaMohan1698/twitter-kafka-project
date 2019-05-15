@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: twitter-config-app
+  cloud:
+    config:
+      discovery:
+        enabled: true
+server:
+  port: 8040
